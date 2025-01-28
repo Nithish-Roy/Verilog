@@ -4,7 +4,7 @@ reg rst_t;
 reg t;
 wire q_t;
 
-t_latch inst2(.en_t(en),.rst_t(rst),.t(t),.q_t(q_t));
+  t_latch inst2(.en_t(en_t),.rst_t(rst_t),.t(t),.q_t(q_t));
 
 initial begin 
   $dumpfile("t_latch_tb.vcd");
